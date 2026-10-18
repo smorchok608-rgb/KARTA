@@ -1,0 +1,13 @@
+{
+  "name": "game-multiplayer-server",
+  "version": "1.0.0",
+  "description": "Сервер для совместной игры: раздаёт игру и синхронизирует фишки по WebSocket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": { "node": ">=16" },
+  "license": "UNLICENSED",
+  "private": true
+}
